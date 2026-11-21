@@ -105,4 +105,4 @@ def get_retriever():
 
 def add_documents_to_vectorstore(docs):
     vectorstore = get_vectorstore()
-    vectorstore.add_documents(docs)
+    return vectorstore.add_documents(docs)
